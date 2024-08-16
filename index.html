@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PAYMENT</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <div class="row">
+          <div class="col">
+            <h3 class="title">Billing Address</h3>
+            <div class="inputbox">
+              <span>Full Name:</span>
+              <input type="text" placeholder="someone" aria-invalid="spelling" />
+            </div>
+            <div
+              class="inputbox">
+              <span>Email:</span>
+              <input
+              type="email"
+              placeholder="example@example.com"
+              aria-errormessage="true" required/>
+             </div>
+            <div class="inputbox">
+              <span>Address:</span>
+              <input type="text" placeholder="address" />
+            </div>
+            <div class="inputbox">
+              <span>City:</span>
+              <input type="text" placeholder="city" />
+            </div>
+            <div class="inputbox">
+              <span>State:</span>
+              <input type="text" placeholder="state" />
+            </div>
+            <div class="inputbox">
+              <span>Zip code:</span>
+              <input type="number" placeholder="123 456" aria-errormessage="true" aria-required="true" required/>
+            </div>
+          </div>
+
+          <div class="col">
+            <h3 class="title">Payment</h3>
+            <div class="inputbox">
+              <span>Cards Accepted:</span>
+              <img src="IMG/all in one.jpg" alt="" />
+            </div>
+            <div class="inputbox">
+              <span>Name on Card:</span>
+              <input type="text" placeholder="Mr. someone" />
+            </div>
+            <div class="inputbox">
+              <span>Credit Card Number:</span>
+              <input type="number" placeholder="1111-2222-3333-4444" aria-errormessage="true" required aria-setsize="true"/>
+            </div>
+            <div class="inputbox">
+              <span>Exp:</span>
+              <input type="text" placeholder="month" />
+            </div>
+            <div class="inputbox"/>
+              <span>Exp:</span> 
+              <input type="number" placeholder="year" />
+            </div>
+            <div class="inputbox">
+              <span>CVV:</span>
+              <input
+                type="number"
+                placeholder="1234"
+                aria-required="true"
+                required
+                aria-errormessage="true" aria-invalid="true"/>
+            </div>
+          </div>
+        </div>
+        <input type="submit" value="Proceed to Checkout" class="submit-btn" />
+      </form>
+    </div>
+  </body>
+</html>
